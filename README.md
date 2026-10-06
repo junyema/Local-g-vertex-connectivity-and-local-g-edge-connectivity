@@ -1,0 +1,2 @@
+# Local-g-vertex-connectivity-and-local-g-edge-connectivity
+The complete source code for the algorithm proposed in “Local $g$-vertex connectivity and local $g$-edge connectivity with their applications”, together with supporting test files, is provided as supplementary material. All programs are implemented and can be executed directly to reproduce the experimental results presented in this paper.
