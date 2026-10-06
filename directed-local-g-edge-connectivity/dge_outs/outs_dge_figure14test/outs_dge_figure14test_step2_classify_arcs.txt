@@ -1,0 +1,8 @@
+Step 2 - ClassifyArcs (connectivity strength and arc bisection,
+        one reachability search per arc on the heavier-arc subgraph)
+strong arcs     : 22
+non-strong arcs : 2
+non-strong arc list:
+  c1     -> e1     0.15
+  y      -> d2     0.1
+special case     : none in the arc-cut version (a direct arc y->z is the trivial lightest cut)

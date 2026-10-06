@@ -1,0 +1,21 @@
+Step 5 - OneMinCut (one max-flow: t_yz and the extreme minimum cuts)
+weakest attachment values (split-arc capacities, skeleton minimum):
+  v      M(v)      
+  a1     0.2       
+  a2     0.2       
+  c1     0.6       
+  c2     0.6       
+  g      0.4       
+  h1     0.4       
+  h2     0.4       
+  p      0.2       
+  p2     0.2       
+  q      0.4       
+  w1     0.5       
+  w2     0.5       
+  w3     0.5       
+  x      0.4       
+one Dinic max-flow on the split network (source y_out, sink z_in)
+t_yz = 0.4
+S_min (source side) = {x}
+S_max (sink side)   = {g}

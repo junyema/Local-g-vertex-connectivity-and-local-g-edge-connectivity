@@ -1,0 +1,32 @@
+Step 1 - LoadDigraph (input and validation)
+endpoint row : y = y, z = z (y reaches z along the arc directions)
+graph        : 14 vertices, 27 arcs
+self-loops dropped at load time: none
+arcs:
+  a1     -> a2     0.15
+  a1     -> g      0.5
+  a1     -> p      0.2
+  a1     -> x      0.5
+  a2     -> a3     0.15
+  a2     -> g      0.5
+  a3     -> g      0.5
+  c1     -> z      0.8
+  c2     -> z      0.8
+  g      -> a1     0.5
+  g      -> a2     0.5
+  g      -> a3     0.5
+  g      -> c1     0.2
+  g      -> c2     0.2
+  g      -> q      0.4
+  g      -> x      0.6
+  h1     -> h2     0.4
+  h2     -> a1     0.4
+  h2     -> a2     0.4
+  x      -> a1     0.4
+  x      -> a2     0.4
+  x      -> a3     0.4
+  x      -> g      0.15
+  x      -> r      0.2
+  y      -> h1     0.4
+  y      -> x      0.4
+  z      -> y      0.9

@@ -1,0 +1,10 @@
+Step 2 - ClassifyArcs (connectivity strength and arc bisection,
+        one reachability search per arc on the heavier-arc subgraph)
+strong arcs     : 16
+non-strong arcs : 4
+non-strong arc list:
+  g      -> a      0.2
+  y      -> d      0.2
+  y      -> e      0.2
+  y      -> b      0.1
+special case     : not triggered (no strong forward arc y->z)

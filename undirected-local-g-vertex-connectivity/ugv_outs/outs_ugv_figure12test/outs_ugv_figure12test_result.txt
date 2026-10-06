@@ -1,0 +1,14 @@
+Algorithm 5.1 - polynomial six-step algorithm (polynomial version)
+case    : figure12test
+variant : undirected graph, vertex cuts (Algorithm 5.1)
+route   : the six steps of Algorithm 5.1
+n, m    : 15 vertices, 20 edges
+d_F(y,z): 5
+t_yz    : 0.4
+S_min   : {r}
+S_max   : {w}
+D1      : 7   (route 1: extreme cuts + two BFS)
+D2      : 7   (route 2: length-cap bisection)
+D       : 7
+eta_yz  : 0.285714
+gamma_yz = (0.4, 0.285714)

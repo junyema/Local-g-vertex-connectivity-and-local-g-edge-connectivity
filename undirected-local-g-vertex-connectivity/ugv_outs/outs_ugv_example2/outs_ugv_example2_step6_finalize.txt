@@ -1,0 +1,16 @@
+Step 6 - Finalize (the two routes for D and the summary)
+route 1 (extreme minimum cuts + two BFS on F'):
+  delete S_min = {b, f} -> d = 4
+  delete S_max = {b, e} -> d = +inf
+  D1 = +inf
+route 2 (length-cap bisection on [3, 7], one min-cut per probe):
+  probe L  tau(L)      
+  3        0.4         
+  5        0.4         
+  6        0.4         
+  7        0.4         
+  L* = 7, D2 = L* + 1 = +inf
+D = max(D1, D2) = +inf
+a fatal cut exists (D = +infinity) -> eta_yz = 1
+gamma_yz = (t_yz, 1 - d/D) = (0.4, 1)
+the two routes agree on D

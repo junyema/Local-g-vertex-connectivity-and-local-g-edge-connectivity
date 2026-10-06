@@ -1,0 +1,29 @@
+# Case 13: cross staircase (undirected edge-cut supplement, endpoints y -> z)
+# four staircase columns y | {a1,b1} | {a2,b2} | {a3,b3} | z; diagonal rungs 0.15, entrances/exits 0.3;
+# lightest edge-cut family all at 0.6, sizes 2/3/4 tied; the c chain and the d1/d2 junctions provide detours.
+y a1 0.3
+y b1 0.3
+a1 a2 0.15
+a1 b2 0.15
+b1 a2 0.15
+b1 b2 0.15
+a2 a3 0.15
+a2 b3 0.15
+b2 a3 0.15
+b2 b3 0.15
+a3 z 0.3
+b3 z 0.3
+y c1 0.25
+c1 c2 0.25
+c2 c3 0.25
+c3 c4 0.25
+c4 z 0.25
+a1 d1 0.12
+b1 d1 0.12
+d1 a2 0.12
+d1 b2 0.12
+a2 d2 0.12
+b2 d2 0.12
+d2 a3 0.12
+d2 b3 0.12
+y z

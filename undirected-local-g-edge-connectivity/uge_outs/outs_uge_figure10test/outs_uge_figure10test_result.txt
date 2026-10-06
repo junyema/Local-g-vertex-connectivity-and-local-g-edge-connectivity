@@ -1,0 +1,14 @@
+Algorithm 5.2 - polynomial six-step algorithm (polynomial version, edge cuts)
+case    : figure10test
+variant : undirected graph, edge cuts (Algorithm 5.2)
+route   : the six steps of Algorithm 5.2
+n, m    : 15 vertices, 21 edges
+d_F(y,z): 5
+t'_yz   : 0.6
+S_min   : {b-y}
+S_max   : {c1-d c2-d}
+D1      : +inf   (route 1: extreme cuts + two BFS)
+D2      : +inf   (route 2: length-cap bisection)
+D       : +inf
+eta'_yz : 1
+gamma'_yz = (0.6, 1)

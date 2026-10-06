@@ -1,0 +1,16 @@
+# figure2 -- 8 vertices, 12 edges; terminals a -> d
+
+a    b    0.2
+a    f     0.2
+a    h    0.3
+b    c    0.4
+b    d   0.1
+c    d    0.7
+c    h    0.1
+d    e   0.2
+e    f    0.6
+e    g    0.8
+f    g     0.1
+g   h     0.2
+
+a d

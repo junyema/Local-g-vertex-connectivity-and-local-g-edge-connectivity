@@ -1,0 +1,10 @@
+[project]
+name = "directed-local-g-vertex-connectivity"
+version = "2.0.0"
+description = "polynomial six-step algorithm (Algorithm 6.1) - directed fuzzy graphs, vertex cuts. Six-step polynomial pipeline: LoadDigraph, ClassifyArcs (+ strong-arc special case), StrongSkeleton, UnionGraph, OneMinCut (M(v) = out-arc minimum), Finalize."
+readme = "dgv_README.md"
+requires-python = ">=3.9"
+dependencies = []
+
+[tool.uv]
+package = false

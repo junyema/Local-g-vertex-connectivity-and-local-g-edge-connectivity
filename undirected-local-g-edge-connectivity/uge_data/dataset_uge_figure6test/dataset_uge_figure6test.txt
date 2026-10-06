@@ -1,0 +1,25 @@
+# Case 6: 13 vertices, 21 edges; endpoints y -> z
+
+y    x    0.4
+x    a1   0.4
+x    a2   0.4
+x    a3   0.4
+a1   g    0.5
+a2   g    0.5
+a3   g    0.5
+g    c1   0.2
+g    c2   0.2
+c1   z    0.8
+c2   z    0.8
+y    h1   0.4
+h1   h2   0.4
+h2   a1   0.4
+h2   a2   0.4
+a1   p    0.2
+g    q    0.4
+a1   a2   0.15
+a2   a3   0.15
+c1   c2   0.15
+x    g    0.15
+
+y z

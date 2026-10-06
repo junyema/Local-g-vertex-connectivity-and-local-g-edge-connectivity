@@ -1,0 +1,7 @@
+Step 5 - OneMinCut (one max-flow: t'_yz and the extreme minimum cuts)
+network: every union arc becomes a network arc with capacity xi(e),
+direction kept; no node splitting, no M(v)
+one Dinic max-flow (source y, sink z)
+t'_yz = 0.4
+S_min (source side) = {y->x}
+S_max (sink side)   = {g->c1 g->c2}

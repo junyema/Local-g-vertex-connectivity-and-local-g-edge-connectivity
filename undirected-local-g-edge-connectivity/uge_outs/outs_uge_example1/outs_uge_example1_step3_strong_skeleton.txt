@@ -1,0 +1,9 @@
+Step 3 - StrongSkeleton (drop the non-strong edges)
+skeleton F'   : 6 vertices, 6 edges (vertex set unchanged)
+skeleton edges:
+  a      b      0.3
+  a      f      0.3
+  b      c      0.8
+  c      d      0.5
+  d      e      0.3
+  d      f      0.4

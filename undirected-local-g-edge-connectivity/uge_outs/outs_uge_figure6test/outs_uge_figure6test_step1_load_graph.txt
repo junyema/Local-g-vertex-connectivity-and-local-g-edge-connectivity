@@ -1,0 +1,26 @@
+Step 1 - LoadGraph (input and validation)
+endpoint row : y = y, z = z
+graph        : 13 vertices, 21 edges, connected
+self-loops dropped at load time: none
+edges:
+  a1     a2     0.15
+  a1     g      0.5
+  a1     h2     0.4
+  a1     p      0.2
+  a1     x      0.4
+  a2     a3     0.15
+  a2     g      0.5
+  a2     h2     0.4
+  a2     x      0.4
+  a3     g      0.5
+  a3     x      0.4
+  c1     c2     0.15
+  c1     g      0.2
+  c1     z      0.8
+  c2     g      0.2
+  c2     z      0.8
+  g      q      0.4
+  g      x      0.15
+  h1     h2     0.4
+  h1     y      0.4
+  x      y      0.4

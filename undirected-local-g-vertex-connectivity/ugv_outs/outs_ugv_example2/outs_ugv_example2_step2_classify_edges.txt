@@ -1,0 +1,8 @@
+Step 2 - ClassifyEdges (connectivity strength and edge bisection)
+strong edges     : 9
+non-strong edges : 3
+non-strong edge list:
+  b      d      0.1
+  c      h      0.1
+  f      g      0.1
+special case     : not triggered (y and z are not linked by a strong edge)

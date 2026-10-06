@@ -1,0 +1,10 @@
+[project]
+name = "undirected-local-g-edge-connectivity"
+version = "2.0.0"
+description = "polynomial six-step algorithm (Algorithm 5.2) - undirected fuzzy graphs, edge cuts. Six-step polynomial pipeline: LoadGraph, ClassifyEdges, StrongSkeleton, UnionGraph, OneMinCut (arc capacity xi), Finalize."
+readme = "uge_README.md"
+requires-python = ">=3.9"
+dependencies = []
+
+[tool.uv]
+package = false

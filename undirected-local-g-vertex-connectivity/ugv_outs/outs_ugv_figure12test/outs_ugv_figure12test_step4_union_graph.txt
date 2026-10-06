@@ -1,0 +1,31 @@
+Step 4 - UnionGraph (distance labels and the union graph)
+path length is counted in edges (hops); two BFS sweeps, one tight-edge scan
+d_F(y, z) = 5
+distance labels (skeleton vertices):
+  v      d_y    d_z   
+  b1     1      6     
+  b2     2      5     
+  b3     3      4     
+  b4     4      3     
+  d1     3      3     
+  d2     4      2     
+  d3     5      1     
+  r      1      4     
+  u1     2      3     
+  u2     2      3     
+  v1     4      1     
+  v2     4      1     
+  w      3      2     
+  y      0      5     
+  z      5      0     
+union graph F_yz : 8 vertices, 9 edges (tight edges only)
+union graph edges:
+  r      u1     0.4
+  r      u2     0.45
+  r      y      0.9
+  u1     w      0.4
+  u2     w      0.45
+  v1     w      0.45
+  v1     z      0.5
+  v2     w      0.45
+  v2     z      0.5

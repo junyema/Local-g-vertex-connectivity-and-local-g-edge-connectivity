@@ -1,0 +1,7 @@
+Step 5 - OneMinCut (one max-flow: t'_yz and the extreme minimum cuts)
+network: every union edge bidirectionalized, arc capacity xi(e); no node
+splitting, no M(v) - the edge itself is its unit price m(e) = xi(e)
+one Dinic max-flow (source y, sink z)
+t'_yz = 0.6
+S_min (source side) = {b-y}
+S_max (sink side)   = {c1-d c2-d}

@@ -1,0 +1,7 @@
+Step 5 - OneMinCut (one max-flow: t'_yz and the extreme minimum cuts)
+network: every union arc becomes a network arc with capacity xi(e),
+direction kept; no node splitting, no M(v)
+one Dinic max-flow (source y, sink z)
+t'_yz = 21.6
+S_min (source side) = {davidw->BrucePerens davidw->Daryll davidw->RoUS davidw->acoliver davidw->bma davidw->bonzini davidw->davem davidw->ettore davidw->gorgo davidw->gstein davidw->hpa davidw->jes davidw->jpick davidw->lars davidw->lupus davidw->mblevin davidw->mjs davidw->rasmus davidw->ruud davidw->sascha davidw->seeS davidw->thom davidw->uzi}
+S_max (sink side)   = {BrucePerens->alan Daryll->alan RoUS->alan bonzini->alan davem->alan davidw->acoliver davidw->bma davidw->gorgo davidw->mblevin davidw->ruud davidw->seeS davidw->uzi ettore->alan gstein->alan hpa->alan jes->alan jpick->alan lars->alan lupus->alan mjs->alan rasmus->alan sascha->alan thom->alan}

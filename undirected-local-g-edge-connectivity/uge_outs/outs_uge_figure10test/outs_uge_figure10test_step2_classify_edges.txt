@@ -1,0 +1,7 @@
+Step 2 - ClassifyEdges (connectivity strength and edge bisection)
+strong edges     : 19
+non-strong edges : 2
+non-strong edge list:
+  a1     a2     0.15
+  c1     c2     0.15
+special case     : none in the edge-cut version (a direct y-z edge is the trivial lightest cut)

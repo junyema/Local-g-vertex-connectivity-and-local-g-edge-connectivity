@@ -1,0 +1,14 @@
+Algorithm 6.1 - polynomial six-step algorithm (directed, vertex cuts)
+case    : advogatotest
+variant : directed graph, vertex cuts (Algorithm 6.1)
+route   : the six steps of Algorithm 6.1
+n, m    : 844 vertices, 12563 arcs
+d_F(y,z): 2
+t_yz    : 17.6
+S_min   : {BrucePerens, Daryll, RoUS, acoliver, bma, bonzini, davem, ettore, gorgo, gstein, hpa, jes, jpick, lars, lupus, mblevin, mjs, rasmus, ruud, sascha, seeS, thom, uzi}
+S_max   : {BrucePerens, Daryll, RoUS, acoliver, bma, bonzini, davem, ettore, gorgo, gstein, hpa, jes, jpick, lars, lupus, mblevin, mjs, rasmus, ruud, sascha, seeS, thom, uzi}
+D1      : 3   (route 1: extreme cuts + two BFS)
+D2      : 3   (route 2: length-cap bisection)
+D       : 3
+eta_yz  : 0.333333
+gamma_yz = (17.6, 0.333333)

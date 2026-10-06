@@ -1,0 +1,14 @@
+Algorithm 6.2 - polynomial six-step algorithm (directed, arc cuts)
+case    : figure14test
+variant : directed graph, arc cuts (Algorithm 6.2)
+route   : the six steps of Algorithm 6.2
+n, m    : 13 vertices, 24 arcs
+d_F(y,z): 4
+t'_yz   : 0.6
+S_min   : {e1->z e2->z}
+S_max   : {e1->z e2->z}
+D1      : 6   (route 1: extreme cuts + two BFS)
+D2      : 6   (route 2: length-cap bisection)
+D       : 6
+eta'_yz : 0.333333
+gamma'_yz = (0.6, 0.333333)

@@ -1,0 +1,28 @@
+Step 3 - StrongSkeleton (drop the non-strong edges)
+skeleton F'   : 14 vertices, 25 edges (vertex set unchanged)
+skeleton edges:
+  a1     a2     0.15
+  a1     b2     0.15
+  a1     d1     0.12
+  a1     y      0.3
+  a2     a3     0.15
+  a2     b1     0.15
+  a2     b3     0.15
+  a2     d1     0.12
+  a2     d2     0.12
+  a3     b2     0.15
+  a3     d2     0.12
+  a3     z      0.3
+  b1     b2     0.15
+  b1     d1     0.12
+  b1     y      0.3
+  b2     b3     0.15
+  b2     d1     0.12
+  b2     d2     0.12
+  b3     d2     0.12
+  b3     z      0.3
+  c1     c2     0.25
+  c1     y      0.25
+  c2     c3     0.25
+  c3     c4     0.25
+  c4     z      0.25

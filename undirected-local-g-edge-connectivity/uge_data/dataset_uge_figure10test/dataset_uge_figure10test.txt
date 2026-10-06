@@ -1,0 +1,27 @@
+# Case 10 (undirected edge cuts): three tied lightest edge cuts of sizes 1 / 2 / 3
+# 15 vertices, 21 edges; endpoints y -> z
+
+y    b    0.6
+b    a1   0.2
+b    a2   0.2
+b    a3   0.2
+a1   d    0.5
+a2   d    0.5
+a3   d    0.5
+d    c1   0.3
+d    c2   0.3
+c1   z    0.8
+c2   z    0.8
+y    h1   0.2
+h1   h2   0.2
+h2   h3   0.2
+h3   h4   0.2
+h4   d    0.2
+b    s1   0.2
+s1   s2   0.2
+s2   d    0.2
+a1   a2   0.15
+c1   c2   0.15
+
+y z
+

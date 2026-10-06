@@ -1,0 +1,28 @@
+Step 3 - StrongSkeleton (drop the non-strong arcs)
+skeleton F'   : 18 vertices, 25 arcs (vertex set unchanged)
+skeleton arcs:
+  a1     -> c1     0.5
+  a1     -> c2     0.5
+  a1     -> p1     0.1
+  a2     -> c1     0.5
+  a2     -> c2     0.5
+  a2     -> p2     0.1
+  a3     -> c1     0.5
+  a3     -> c2     0.5
+  a3     -> p3     0.1
+  b      -> a1     0.3
+  b      -> a2     0.3
+  b      -> a3     0.3
+  b      -> s1     0.6
+  c1     -> q1     0.15
+  c1     -> z      0.45
+  c2     -> q2     0.15
+  c2     -> z      0.45
+  h1     -> h2     0.3
+  h2     -> h3     0.3
+  h3     -> a1     0.3
+  s1     -> s2     0.6
+  s2     -> c1     0.6
+  y      -> b      0.9
+  y      -> h1     0.3
+  z      -> y      0.9

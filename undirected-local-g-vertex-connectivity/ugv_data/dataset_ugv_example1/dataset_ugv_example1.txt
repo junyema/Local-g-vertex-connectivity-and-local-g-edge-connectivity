@@ -1,0 +1,12 @@
+# figure1 -- 6 vertices, 8 edges; terminals a -> e
+
+a    f    0.3
+a    b    0.3
+f    d    0.4
+f    e    0.2
+b    d    0.1
+b    c    0.8
+e    d    0.3
+d    c    0.5
+
+a e
